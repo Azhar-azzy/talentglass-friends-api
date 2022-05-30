@@ -10,17 +10,6 @@ const Friend = require("./models/Friend.js");
 app.use(cors());
 app.use(express.json());
 
-const friends = [
-  {
-    id: 0,
-    name: "John",
-  },
-  {
-    id: 1,
-    name: "Jack",
-  },
-];
-
 // Available End Points
 
 // A. Endpoint : /friends , Method : GET
